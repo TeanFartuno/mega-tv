@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'MuseoSans';
+	src: url('../fonts/MuseoSansCyrl/MuseoSansCyrlBold/MuseoSansCyrlBold.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/MuseoSansCyrl/MuseoSansCyrlBold/MuseoSansCyrlBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../fonts/MuseoSansCyrl/MuseoSansCyrlBold/MuseoSansCyrlBold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/MuseoSansCyrl/MuseoSansCyrlBold/MuseoSansCyrlBold.woff') format('woff'), /* Pretty Modern Browsers */
+		url('../fonts/MuseoSansCyrl/MuseoSansCyrlBold/MuseoSansCyrlBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/MuseoSansCyrl/MuseoSansCyrlBold/MuseoSansCyrlBold.svg.svg#svgFontName') format('svg'); /* Legacy iOS */
+		font-weight: 900;
+		font-style: normal;
+}

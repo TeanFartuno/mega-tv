@@ -1,0 +1,1064 @@
+
+.animated{
+    opacity: 0;
+}
+
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+
+
+ul
+{
+    padding-left: 0;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.row
+{
+    margin: 0;
+}
+
+.clearfix:after
+{
+    display: table;
+    clear: both;
+
+    width: 100%;
+
+    content: '';
+}
+
+
+
+
+header
+{
+    
+    margin-bottom: -38px;
+
+    background: url(../img/first-bg.png) center top fixed;
+    background-size: auto;
+}
+
+
+.head
+{
+    height: 120px;
+
+    background: url(../img/menu.png) center center no-repeat;;
+}
+
+.head
+{
+    padding: 25px 0;
+}
+
+.head__text
+{
+    font-weight: 700;
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #fcff00;
+}
+
+/*.head__logo img
+{
+    width: 100%;
+}*/
+
+.head-menu
+{
+    position: relative;
+
+    display: -webkit-box;
+
+    display: flex;
+
+    margin-bottom: 0;
+}
+
+.head-menu__item
+{
+    margin: 0 auto;
+}
+
+.head-menu__item a
+{
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.head-menu__item a:hover
+{
+    -webkit-transition: 1s;
+    transition: 1s;
+    -webkit-transform: all ease;
+            transform: all ease;
+
+    color: #fcff00;
+}
+
+.head-menu__item a:active
+{
+    color: #fcff00;
+}
+
+
+.head-menu__item a:focus
+{
+    color: #fcff00;
+}
+
+
+.head__fb
+{
+    float: right;
+}
+
+.head__fb img
+{
+    float: right;
+
+    width: 70%;
+    height: 100%;
+}
+
+.head__form
+{
+    width: 100%;
+    margin: 117px auto 133px;
+    padding-top: 31px;
+
+    background: url(../img/form-bg.png) center top;
+    background-size: cover;
+}
+
+.offer-head
+{
+    font-size: 20px;
+    font-weight: 700;
+
+    margin: 0 0;
+    padding: 8px 0;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.head__form ul li
+{
+    font-size: 17px;
+    font-weight: 700;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.offer
+{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+
+    width: 80%;
+    margin: 10px auto;
+
+    text-align: center;
+
+    color: #fcff00;
+}
+
+form
+{
+    display: block;
+
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+form input
+{
+    font-size: 20px;
+
+    width: 49.6%;
+    height: 48px;
+    padding-left: 5px;
+
+    color: #fff;
+    border: 1px solid
+    #fcff00;
+    background: none;
+}
+
+.head-btn
+{
+    font-size: 20px;
+    font-weight: 700;
+
+    display: block;
+
+    width: 100%;
+    height: 48px;
+    margin: 10px auto;
+
+    -webkit-animation: shadow 2s infinite alternate;
+
+            animation: shadow 2s infinite alternate;
+    letter-spacing: 1;
+
+    color: #09093c;
+    border: none;
+    background-color: #fcff00;
+}
+
+@-webkit-keyframes shadow
+{
+    from
+    {
+        box-shadow: 0 0 5px 0 yellow;
+    }
+    to
+    {
+        box-shadow: 0 0 25px 0 yellow;
+    }
+}
+
+@keyframes shadow
+{
+    from
+    {
+        box-shadow: 0 0 5px 0 yellow;
+    }
+    to
+    {
+        box-shadow: 0 0 25px 0 yellow;
+    }
+}
+
+
+.slideInLeft
+{
+    visibility: hidden;
+}
+
+/*Второй экран*/
+
+.second
+{
+    position: relative;
+
+    padding: 40px 30px;
+
+    background: url(../img/second-bg.png) center top fixed;
+}
+
+.elips-one
+{
+    position: absolute;
+    top: -40px;
+    left: 50%;
+
+    margin-left: -42px;
+}
+
+h2
+{
+    font-size: 40px;
+    font-weight: 700;
+
+    margin: 40px 0;
+
+    text-align: center;
+}
+
+.second h2
+{
+    padding-bottom: 40px;
+
+    color: #fff;
+}
+
+
+.adv
+{
+    height: 126px;
+    padding-top: 40px;
+}
+
+.adv-img
+{
+    margin-top: -118px;
+    margin-left: 265px;
+}
+
+.adv::after
+{
+    font-size: 15px;
+    font-weight: 500;
+
+    display: block;
+
+    width: 300px;
+    height: 40px;
+    margin: -124px 0 0 524px;
+
+    content: 'Мы предлагаем каналы всех тематик. Из них более 50 в FULL HD качестве, в одном пакете - за фиксированную стоимость';
+
+    color: #fff;
+}
+
+
+.adv::before
+{
+    font-size: 20px;
+    font-weight: 900;
+
+    display: block;
+
+    width: 235px;
+    margin-bottom: -29px;
+
+    content: 'КАНАЛЫ НА ЛЮБОЙ ВКУС';
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #fcff00;
+}
+
+
+
+
+.adv-two
+{
+    height: 126px;
+    margin-top: 200px;
+    margin-left: 41%;
+}
+
+.adv-two::after
+{
+    font-size: 20px;
+    font-weight: 900;
+
+    display: block;
+
+    width: 235px;
+    margin: -139px 0 0 423px;
+
+    content: 'ОТ 10 ДОЛЛАРОВ В МЕСЯЦ';
+    text-align: left;
+    text-transform: uppercase;
+
+    color: #fcff00;
+}
+
+
+.adv-img-two
+{
+    margin-top: -118px;
+    margin-left: 265px;
+}
+
+
+
+.adv-two::before
+{
+    font-size: 15px;
+    font-weight: 500;
+
+    display: block;
+
+    width: 300px;
+    height: 40px;
+    margin: -94px 0 0 -160px;
+
+    content: 'Мы предлагаем интернет телевидение высокого качества по самой интересной цене в Канаде';
+    text-align: right;
+
+    color: #fff;
+}
+
+
+
+.adv-three {
+    height: 126px;
+    margin-top: 110px;
+}
+
+.adv-three::after
+{
+    font-size: 15px;
+    font-weight: 500;
+
+    display: block;
+
+    width: 300px;
+    height: 40px;
+    margin: -124px 0 0 524px;
+
+    content: 'Мультфильмы, образовательные передачи и многое другое. С нашим телевидением вашим детям не придется скучать ;)';
+
+    color: #fff;
+}
+
+
+.adv-three::before
+{
+    font-size: 20px;
+    font-weight: 900;
+
+    display: block;
+
+    width: 235px;
+    margin-bottom: -29px;
+
+    content: '22 ДЕТСКИХ КАНАЛОВ';
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #fcff00;
+}
+
+.adv-four {
+    height: 126px;
+    margin-top: 194px;
+    margin-left: 41%;
+}
+
+.adv-four::after
+{
+    font-size: 20px;
+    font-weight: 900;
+
+    display: block;
+
+    width: 235px;
+   margin: -139px 0 0 406px;
+
+    content: 'СТАБИЛЬНОЕ КАЧЕСТВО ТРАНСЛЯЦИИ';
+    text-align: left;
+    text-transform: uppercase;
+
+    color: #fcff00;
+}
+
+
+.adv-img-two
+{
+    margin-top: -118px;
+    margin-left: 168px;
+}
+
+
+.adv-four::before
+{
+    font-size: 15px;
+    font-weight: 500;
+
+    display: block;
+
+    width: 300px;
+    height: 40px;
+    margin: -94px 0 0 -182px;
+
+    content: 'Наши серверы находятся в Канаде, поэтому наше телевидение работает без зависаний и помех';
+    text-align: right;
+
+    color: #fff;
+}
+
+
+.wow
+{
+    visibility: hidden;
+}
+
+.adv-mob__item img
+{
+    display: block;
+
+    margin: 0 auto;
+}
+
+
+.adv-head
+{
+    font-size: 20px;
+    font-weight: 900;
+
+    margin-top: -9px;
+    margin-bottom: 10px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fcff00;
+}
+
+
+.adv-text
+{
+    font-size: 15px;
+    font-weight: 500;
+
+    width: 80%;
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+/*Третий экран*/
+.third
+{
+    position: relative;
+
+    padding-bottom: 100px;
+}
+
+.elips-two
+{
+    position: absolute;
+    top: -99px;
+    left: 50%;
+
+    margin-left: -42px;
+}
+
+.third h2
+{
+    margin-top: 60px;
+
+    text-transform: uppercase;
+
+    color: #0e0958;
+}
+
+
+
+
+.tarif img
+{
+    display: block;
+
+    width: 75%;
+    margin: 0 auto;
+
+    -webkit-transition: all .3s ease;
+            transition: all .3s ease;
+}
+
+
+.tarif img:hover
+{
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+}
+
+.mag {
+    display: block;
+    width: 67%;
+    margin: -20px auto;
+}
+
+
+.fourth
+{
+    position: relative;
+
+    padding: 40px 30px;
+
+    background: url(../img/second-bg.png) center top fixed;
+}
+
+.fourth h2
+{
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.tv_wrap {
+
+    height: 362px;
+    margin: 0 auto;
+    background: url(../img/film-two.png) top center no-repeat;
+    background-size: auto;
+
+
+}
+
+
+.up_after {
+
+    position: absolute;
+    left: 11.5%;
+    top: 0;
+    overflow: hidden;
+    width: 50%;
+    -webkit-animation-name: transform_img;
+    animation-name: transform_img;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    border-right: 2px solid 
+
+    rgb(249, 81, 40);
+
+}
+
+img.change_img
+{
+    display: block;
+
+    margin: 0 auto;
+}
+
+@-webkit-keyframes transform_img
+{
+    0%,
+    50%
+    {
+        width: 0;
+    }
+    10%,
+    30%,
+    10%
+    {
+        width: 10%;
+    }
+    20%,
+    80%
+    {
+        width: 50%;
+    }
+}
+
+@keyframes transform_img
+{
+    0%,
+    50%
+    {
+        width: 0;
+    }
+    10%,
+    30%,
+    10%
+    {
+        width: 10%;
+    }
+    20%,
+    80%
+    {
+        width: 50%;
+    }
+}
+
+.film-two
+{
+    position: absolute;
+    z-index: 0;
+}
+
+
+.film-two img
+{
+    display: block;
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.btn-quality a
+{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 2.4;
+
+    display: block;
+
+    width: 100%;
+    height: 48px;
+    height: 67px;
+    margin: 10px auto;
+    margin-top: 10px;
+    margin-top: 34px;
+
+    -webkit-animation: shadow 2s infinite alternate;
+
+            animation: shadow 2s infinite alternate;
+    text-align: center;
+    letter-spacing: 1;
+    text-transform: uppercase;
+
+    color: #09093c;
+    border: none;
+    background-color: #fcff00;
+}
+
+@keyframes shadow
+{
+    from
+    {
+        box-shadow: 0 0 5px 0 yellow;
+    }
+    to
+    {
+        box-shadow: 0 0 25px 0 yellow;
+    }
+}
+
+
+.quality-img
+{
+    width: 80%;
+    margin: 40px 0 20px 0;
+}
+
+.quality-img img
+{
+    margin: 10px 1%;
+
+    text-align: center;
+}
+
+
+
+.fifth
+{
+    position: relative;
+}
+
+.elips-three
+{
+    position: absolute;
+    top: -42px;
+    left: 50%;
+
+    margin-left: -42px;
+}
+
+.stock
+{
+    font-size: 40px;
+    font-weight: 800;
+
+    display: block;
+
+    padding-top: 55px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fcb327;
+}
+
+.fifth-text
+{
+    font-size: 40px;
+    font-weight: 700;
+
+    display: block;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #130a79;
+}
+
+.Is-free
+{
+    font-size: 40px;
+    font-weight: 800;
+
+    display: block;
+
+    padding-bottom: 40px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fcb327;
+}
+
+
+.footer-form
+{
+    background: url(../img/footer.png) center top no-repeat;
+}
+
+
+.footer__form
+{
+    width: 100%;
+    height: 62%;
+    margin: 70px auto 133px;
+    padding-top: 31px;
+
+    background-repeat: repeat;
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+}
+
+.offer-head
+{
+    font-size: 20px;
+    font-weight: 700;
+
+    margin: 0 0;
+    padding: 8px 0;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.head__form ul li
+{
+    font-size: 17px;
+    font-weight: 700;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.offer
+{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+
+    width: 90%;
+    margin: 10px auto;
+
+    text-align: center;
+
+    color: #fcff00;
+}
+
+.footer-form-text
+{
+    font-size: 23px;
+    font-weight: 700;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fcff00;
+}
+
+
+
+.msg
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 8vw;
+
+    display: -webkit-box;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+
+    color: #fefefe;
+    background-color: #1184f0;
+
+    -webkit-box-pack: center;
+
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.msg {
+  font-family: 'Pacifico', cursive;
+  font-size: 8vw;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-align: center;
+          align-items: center;
+  color: #FEFEFE;
+  background-color: #1184F0;
+}
+
+
+.open {
+    position: fixed;
+    top: 142px;
+    right: 23px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+    -webkit-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+    z-index: 1000;
+}
+
+.open:hover { opacity: 0.8; }
+
+.open span {
+    display: block;
+    float: left;
+    clear: both;
+    height: 4px;
+    width: 40px;
+    border-radius: 40px;
+    background-color: 
+#fcff00;
+position: absolute;
+right: 3px;
+top: 3px;
+overflow: hidden;
+-webkit-transition: all 0.4s ease;
+transition: all 0.4s ease;
+border: 1px solid
+    #0d2aba;
+}
+
+.open span:nth-child(1) {
+  margin-top: 10px;
+  z-index: 9;
+}
+
+.open span:nth-child(2) { margin-top: 25px; }
+
+.open span:nth-child(3) { margin-top: 40px; }
+
+.sub-menu {
+  -webkit-transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  height: 0;
+  width: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+ background-color: rgb(0, 0, 117);
+  border-radius: 50%;
+  z-index: 18;
+  overflow: hidden;
+}
+
+.sub-menu li {
+  display: block;
+  float: right;
+  clear: both;
+  height: auto;
+  margin-right: -160px;
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sub-menu li:first-child { margin-top: 180px; }
+
+.sub-menu li:nth-child(1) { -webkit-transition-delay: 0.05s; }
+
+.sub-menu li:nth-child(2) { -webkit-transition-delay: 0.10s; }
+
+.sub-menu li:nth-child(3) { -webkit-transition-delay: 0.15s; }
+
+.sub-menu li:nth-child(4) { -webkit-transition-delay: 0.20s; }
+
+.sub-menu li:nth-child(5) { -webkit-transition-delay: 0.25s; }
+
+.sub-menu li a {
+  color: #fff;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  float: left;
+  line-height: 40px;
+}
+
+.oppenned .sub-menu {
+  opacity: 1;
+  height: 400px;
+  width: 400px;
+}
+
+.oppenned span:nth-child(2) { overflow: visible; }
+
+.oppenned span:nth-child(1),
+.oppenned span:nth-child(3) {
+  z-index: 100;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.oppenned span:nth-child(1) { -webkit-transform: rotate(45deg) translateY(12px) translateX(12px); transform: rotate(45deg) translateY(12px) translateX(12px); }
+
+.oppenned span:nth-child(2) {
+  height: 400px;
+  width: 400px;
+  right: -160px;
+  top: -160px;
+  border-radius: 50%;
+  background-color: rgba(38, 84, 133, 0.54);
+}
+
+.oppenned span:nth-child(3) { -webkit-transform: rotate(-45deg) translateY(-10px) translateX(10px); transform: rotate(-45deg) translateY(-10px) translateX(10px); }
+
+.oppenned li { margin-right: 168px; }
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+

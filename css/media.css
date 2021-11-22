@@ -1,0 +1,441 @@
+@media screen and (max-width: 1921px) {
+
+	.tv_wrap {
+
+    width: 100%;
+
+	}
+
+	.quality-img {
+	    width: 68%;
+	    margin: 0px auto;
+	}
+
+	.chanel1{
+		display: none;
+	}
+
+
+	
+
+	.quality {
+    text-align: center;
+    width: 40%;
+    margin: 0px auto;
+        margin-top: 0px;
+    margin-top: 0px;
+    background-color: 
+white;
+display: block;
+float: right;
+font-weight: 700;
+padding-top: 15px;
+padding-bottom: 17px;
+margin-top: -10px;
+color:
+    #131313;
+    text-transform: none;
+    line-height: 0.77;
+}
+
+.quality-two{
+
+
+    text-align: center;
+    width: 40%;
+    margin: 0px auto;
+    background-color: 
+
+    yellow;
+    display: block;
+    float: left;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    color: blue;
+}
+
+}
+
+@media screen and (min-width: 1300px) {
+
+
+	.quality-img {
+    width: 100%;
+    margin: 0px auto;
+	}
+	
+}
+
+
+@media screen and (max-width: 1300px) {
+	.adv,
+	.adv-two,
+	.adv-three,
+	.adv-four
+	{
+		display: none;
+	}
+
+
+	.second{
+		padding: 40px 30px 70px 30px;
+	}
+
+	.second h2{
+		padding-bottom: 0px;
+	}
+
+
+	.quality-img {
+    width: 100%;
+    margin: 0px auto;
+	}
+	
+
+	.quality,
+	.quality-two{
+		width: 50%
+	}
+
+
+
+	.up_after {
+    left: 11.5%;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.head__logo img{
+		width: 100%;
+	}
+
+	.up_after {
+    left: 3.5%;
+	}
+}
+
+
+@media screen and (max-width: 1140px) {
+
+	.up_after {
+    left: 3.5%;
+	}
+}
+
+
+@media screen and (min-width: 1301px) {
+	.adv-mob{
+		display: none;
+	}
+
+
+
+}
+
+
+@media screen and (min-width: 1140px) {
+
+}
+
+/*---ПЛАНШЕТЫ 728-960 ---*/
+@media screen and (max-width: 992px) {
+	
+	.head-menu {
+    font-size: 12px;
+	}
+
+	.up_after {
+
+    left: 9.5%;
+
+}
+}
+
+
+@media screen and (max-width: 830px) {
+}
+
+/*---МОБИЛЬНЫЕ 0-728 ---*/
+@media screen and (max-width: 767px) {
+		.head__text{
+		display: none;
+	}
+
+	.head-menu{
+		display: none;
+	}
+
+	.head {
+    padding: 37px 0;
+	}
+
+	.head__fb img {
+    width: 55%;
+	}
+
+	.head__logo img{
+		width: 100%;
+	}
+
+
+	form input {
+	    width: 100%;
+	    text-align: center;
+	}
+
+
+	h2{
+	font-size:20px;
+	}
+
+	.mag {
+    display: block;
+    width: 71%;
+    margin: -13px auto;
+}
+
+.tv_wrap {
+
+    height: 362px;
+    margin: 0 auto;
+    background: url(../img/film-two.png) top left no-repeat;
+        background-size: auto;
+    background-size: auto;
+
+}
+
+.up_after {
+
+    left: 2.5%;
+
+}
+
+	.quality,
+	.quality-two{
+		width: 70%
+	}
+
+}
+
+@media screen and (min-width: 769px) {
+	label.hamburger {
+
+    position: -webkit-sticky;
+
+    position: sticky;
+    top: 20px;
+   	left: 76%;
+	}
+
+	header
+{
+  
+    margin-top: 0px;
+}
+
+	label.hamburger{
+		display: none;
+	}
+
+	.open{
+		display: none;
+	}
+	
+}
+
+
+
+@media screen and (max-width: 660px) {
+	
+	.head__text{
+		display: none;
+	}
+
+	.head {
+
+    padding: 45px 0px;
+
+	}
+
+
+	.mag {
+	    display: block;
+	    width: 66%;
+	    margin: -10px auto;
+	}
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+	
+	.head__form ul li {
+
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    color: 
+
+    #fff;
+
+	}
+
+
+	.head {
+    padding: 45px 0px;
+	}
+	.head__fb img{
+	width:40px;
+	height: 40px;
+	}
+	
+	.head__form ul li {
+	}
+	
+	.offer {
+    font-size: 16px;
+	}
+
+form input {
+
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+    .stock,
+    .fifth-text,
+    .Is-free
+    {
+    font-size: 20px;
+	}
+
+	.footer-form-text{
+		font-size:
+		17px;
+	}
+
+
+	.head-btn {
+    font-size: 15px;
+	}
+
+
+.mag {
+    display: block;
+    width: 100%;
+    margin: -35px auto;
+}
+
+    .quality,
+	.quality-two {
+		width: 100%;
+		font-size: 12px;
+	}
+}
+
+
+
+
+@media screen and (min-width: 452px) {
+
+
+	.logo-mob{
+		display: none;
+	}
+
+
+
+}
+
+
+
+@media screen and (max-width: 452px) {
+	.chanel1{
+		display: block;
+	}
+
+
+	.chanel2{
+		display: none;
+	}
+
+	.mag {
+    display: block;
+    width: 84%;
+    margin: -18px auto;
+	}
+
+}
+
+@media screen and (min-width: 391px) {
+
+
+	.logo-mob{
+		display: none;
+	}
+
+
+
+}
+
+@media screen and (max-width: 390px) {
+	
+	.logo-mob img{
+		display: block;
+		margin: 0px auto;
+		width: 274%;
+	}
+
+	.head__fb,
+	.head__logo{
+		display: none;
+	}
+	
+	.tv_wrap {
+
+    height: 178px;
+    margin: 0 auto;
+    background: url(../img/film-two.png) top left no-repeat;
+        background-size: auto;
+    background-size: auto;
+    background-size: cover;
+
+}
+
+
+	.up_after {
+    height: 175px;
+
+	}
+
+	.up_after {
+
+    left: 4.5%;
+
+	}
+
+	img.change_img {
+    height: 178px;
+
+	}
+
+	.footer-form-text{
+		font-size:
+		15px;
+	}
+
+	.quality,
+	.quality-two {
+		width: 100%;
+		font-size: 12px;
+		font-weight: 500;
+	}
+
+
+}
+
+
